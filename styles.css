@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.search{
+ border-radius: 15px;
+}
+
+.cart-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.cart-link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.search-and-contact {
+    display: flex;
+    gap: 15px;
+}
+
+.search-and-contact input {
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+/*.header-search input {
+    padding: 10px;
+    width: 300px;
+}*/
+
+.main-nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
